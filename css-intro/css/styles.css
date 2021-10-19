@@ -1,0 +1,15 @@
+h1 {
+    color:red;
+}
+
+p {
+    /*background-color:silver;*/
+    font-family: Calobri;
+}
+
+/* multiple element (tg) selectors */
+h2, h3, h4, h5, h6{
+    color:blue;
+    background-color: #f4f4f4;
+    border:3px solid black;
+}
