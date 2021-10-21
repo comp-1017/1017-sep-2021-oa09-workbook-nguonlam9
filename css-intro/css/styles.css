@@ -1,15 +1,57 @@
+/*element (tag) selector */
+
+
 h1 {
     color:red;
 }
 
 p {
-    /*background-color:silver;*/
+    background-color:silver;
     font-family: Calobri;
 }
 
-/* multiple element (tg) selectors */
+/* multiple element (tag) selectors */
 h2, h3, h4, h5, h6{
     color:blue;
     background-color: #f4f4f4;
     border:3px solid black;
 }
+
+
+
+/*decentant slectors
+element element element...*/
+section aside p{
+    background-color: azure;
+    font-family: fantasy
+    font-weight: bold;
+    font-style: italic;
+    font-size:large;
+ }
+
+
+
+ /*child comdinations 
+ element-element
+ parent - child*/
+section p{
+    font-size: xx-small;
+}
+
+/*class selector
+syntax for naming is . user-name{rules} 
+you are NOT using element names
+classes are independent of the emement
+on html page class="user-name [user-name ...]
+*/
+.box-text{
+    border-top: 10px solix blue
+    background-color: chartreuse;
+}
+
+.color-yellow{
+    color: rgb(255, 0, 212)
+}
+/*id selector
+similar to a class selector BUT is suppose to be use
+only one on the page where as a class
