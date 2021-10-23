@@ -45,13 +45,16 @@ classes are independent of the emement
 on html page class="user-name [user-name ...]
 */
 .box-text{
-    border-top: 10px solix blue
-    background-color; rosybrown; 
+    border-top: 10px solid blue;
+    background-color: chartreuse;
 }
 
 .color-yellow{
-    color: rgb(255, 0, 212)
+    color:  yellow;
 }
 /*id selector
 similar to a class selector BUT is suppose to be use
-only one on the page where as a class
+only once on the page where as a class may be used multiple times
+syntax #user-name{rules}
+on html page id="user-name"
+*/
