@@ -1,0 +1,68 @@
+body {
+	background-color: white;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+
+/*Typography*/
+/*represents styling against text */
+
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333; 
+}
+
+h1, h2{
+	font-weight: bold;
+}
+
+h1{
+	font-size: 18px;
+}
+
+h2{
+	font-size: 18px;
+}
+
+
+
+/* Layout*/
+
+.site-header{
+	margin: 15px 0; /* top, botom  right,left */
+
+}
+
+.site-header nav{
+	margin: 15px;
+}
+
+.site-header nav li{
+	border: 2px solid #333333;
+	text-align: center;
+	margin-left: 15px;
+	width: 170px;
+}
+
+main{
+	display: flex;
+}
+
+main section{
+	border: 2px solid #333333;
+	padding: 15px;
+	margin-left: 15px;
+	width: 423.5px;
+}
+
+/* 15x 7= 80 */
+
+.menu{
+	display: flex;
+}
