@@ -1,0 +1,79 @@
+body {
+	background-color: white;
+}
+ 
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+.hidden {
+	display: none;
+}
+/*by default any image is repeated across / down the display area*/
+.page-header {
+	background: url(../img/google-plus.gif),
+				url(../img//post2-icon.gif),
+				/*url(../img/header-background.png);*/
+				linear-gradient(to right, rgba(85, 150, 154, 1), rgba(194, 223, 225,0.2));
+	background-repeat: no-repeat, no-repeat; /*repeat-Y*//* repeat */ 
+	background-position: left 20em, top 0em,
+						left 40em, top 3em;  /* right 75% bottom 35%; */ /*center; */
+}
+
+/* caculation of point (pt) to pixels
+12 pt = 16px
+
+ pt * 4 / 3 = px    */
+
+.blog-font{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.blog-font header h2{
+	font-size: 64px;
+	color: #0b777b;
+	font-weight: bold;
+}
+
+.blog-font p{
+	font-size: 21px;
+	color: #7f8c8c;
+}
+
+.blog-font footer span{
+	color: #378184;
+	font-size: 19px;
+}
+
+.blog-font footer strong{
+	font-weight: bold;
+	color: #094144;
+}
+
+/* Layout area*/
+
+.page-header{
+	margin-bottom: 88px;
+}
+
+.blog-font{
+	margin-bottom: 70px;
+	padding: 0 60px;
+}
+
+.blog-font footer{
+	margin-top: 24px;
+}
+
+.blog-font footer span{
+	margin: 0 20px; /*top, bottom    right, left*/
+}
+
+.blog-font footer img{
+	vertical-align: middle;
+}
+
