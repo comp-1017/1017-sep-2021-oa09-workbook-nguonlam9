@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../img/background-tile.gif);
+}
+
+.container{
+
+    margin: 0 auto;
+    width: 960px;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+
+
+/*typography */
+
+header{
+    height: 70px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.banner{
+    background-image: url(../img/flowers.jpg);
+    height:420px; /* shrink the banner size to fix in the picture 480 - 60 (padding) =420  */
+}
+
+.banner h1{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 36px;
+    color: #f9ea4e;
+}
+
+.banner a{
+    font-size: 18px;
+    color: #faf9f8;
+    text-decoration: none;
+}
+
+.banner a:hover,
+.banner a:focus{
+    color: teal;
+}
+
+.banner li{
+    list-style-type: none;
+}
+/* page layout*/
+
+header img{
+    margin: 17px;
+}
+
+header{
+    margin-bottom:50px ;
+}
+.banner{
+    padding: 60px 0 0 680px;
+}
+
+
+
+.banner li{
+    margin-bottom: 12px;
+}
