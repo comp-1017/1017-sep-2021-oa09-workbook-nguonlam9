@@ -1,0 +1,150 @@
+body {
+	background-color: white;
+	font-size: 100%;
+	line-height: 1.5;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+}
+
+.visuallyhidden {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px; width: 1px;
+	margin: -1px; padding: 0; border: 0;
+}
+
+/*     font-family: 'Alegreya', serif;
+
+    font-family: 'Raleway', sans-serif; */
+
+/*heading*/
+/*when placing items in horizontal fashion, you want to consider using 
+display: flex;
+
+flex affects the immediate next level of where the flex rule has been set*/
+
+
+header{
+	background-color: #028568;
+	height: 75px;
+	display:flex;
+}
+
+header img{
+	margin: 10px;
+}
+
+/*horizontal menu
+|flex works on the 1st child level element within the flexed element*/
+
+header nav ul{
+	display:flex;
+}
+
+nav a{
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	color: #f1f7f6;
+}
+
+nav li{
+	margin-right:30px;
+	font-size: 18px;
+	/* if you need to center  text in a box model element
+	such as the li, you can use the rule line-height
+	line-height by default has text centered */
+	line-height: 75px;
+}
+
+nav ul{
+	margin-left: 170px;
+}
+
+nav a:hover,
+nav a:focus{
+	border-bottom:2px solid #abddd5;
+}
+
+/*banner*/
+
+.banner{
+	background-image: url(../img/islandbackground.jpg);
+	height:384px;
+	display:flex;
+}
+
+/* width is content (leftmargin + lb + lp + w + rp + rb + rm)
+|580 - (2*82) = width   */ 
+
+.leftside{
+	width: 416px;
+	padding: 85px 82px 0 82px;  /* top left bottom right*/
+}
+
+/*for transparent colors use rgba (red, green, blue, transparent value)
+|the transparent value is 0.0 - 1.0    80% would be 0.8 */
+
+.rightside{
+	background-color: rgba(117,221,223,0.8);
+	width: 216px;
+	padding: 85px 82px 0 82px;
+}
+
+/*an anchor being simulated as a button by default an archor is NOt a block element
+thus, you cannot use your usual box model positioning to simulate the box model ability set for non block element
+you can use the rule display: inline-block
+
+to round corner on ablock use border-radius: npx;
+the larger the n, the larger the rounding */
+
+.rightside a{
+	font-family:'Alegreya', serif;
+	display: inline-block;
+	padding:9px 38px;
+	text-decoration: none;
+	text-align: center;
+	color: #028568;
+	border-radius: 10px;
+	background-color: white;
+	margin-top: 36px;
+}
+
+.rightside a:hover,
+.rightside a:focus{
+	font-weight: bold;
+}
+
+.bar{
+	height: 8px;
+	width: 400px;
+	/*font-size: 18px;*/
+	background-color: #abddd5;
+	margin: 36px 0;
+}
+
+.banner h2{
+	font-family: 'Alegreya', serif;
+	font-size: 36px;
+	color: #f1f7f6;
+}
+
+.banner p{
+	font-family:'Raleway', sans-serif;
+	font-size: 18px;
+	color: #ccd3d1;
+	text-align: center;
+}
+
+.banner .leftside h2{
+	text-align: center;
+
+}
+
+.banner .rightside h2{
+	line-height: 50px;
+	margin-bottom: 36px;
+}
