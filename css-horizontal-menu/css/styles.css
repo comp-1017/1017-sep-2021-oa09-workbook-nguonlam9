@@ -78,7 +78,7 @@ nav a:focus{
 }
 
 /* width is content (leftmargin + lb + lp + w + rp + rb + rm)
-|580 - (2*82) = width   */ 
+|580 - (2*82) = 416   */ 
 
 .leftside{
 	width: 416px;
