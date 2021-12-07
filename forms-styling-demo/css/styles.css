@@ -1,0 +1,115 @@
+body {
+    background-color:azure
+    /*background-image: url(../img/page-background.gif);
+    background-repeat: repeat-x;*/
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Nav Element */
+
+.contact-us{
+    background-image: url(../img/page-background.gif);   /*copy this from body*/
+    background-repeat: repeat-x;
+}
+
+.site-navigation {
+    height: 155px;
+}
+
+.site-navigation img {
+    margin-top: 16px;
+}
+
+.site-navigation ul {
+    width: 490px;
+    margin: 0 auto;
+}
+
+.site-navigation li {
+    margin: 8px 25px;
+    float: left;
+}
+
+.site-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-navigation a:hover {
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+}
+
+/* Header Element */
+
+.contact-us h1 {
+    line-height: 0.8;
+    font-size: 72px;
+    color: #7a777c;
+    width: 450px;
+    border-bottom: 1px solid #d9d9d9;
+    margin: auto;
+    margin-top: 115px;
+    padding-bottom: 42px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* form styling*/
+
+.yourname input{
+    background-image: url(../img/namelogo.gif);
+    background-repeat: no-repeat;
+    width: 365px;
+}
+
+.youremail input{
+    background-image: url(../img/emaillogo.gif);
+    background-repeat: no-repeat;
+    width: 365px;
+}
+
+.yourphone input{
+    background-image: url(../img/phonelogo.gif);
+    background-repeat: no-repeat;
+    width: 365px;
+}
+
+.yourmessage textarea{
+    background-image: url(../img/messagelogo.gif);
+    background-repeat: no-repeat;
+    max-height: 30px;
+    min-height: 50px;
+    max-width: 30px;
+    min-width: 365px;
+}
+
+input,
+textarea{
+    padding-left: 35px;
+    background-color: #efefef;
+    line-height: 32px;
+}
+
+label{
+    display: block;
+}
+
+button{
+    background-color: #efefef;
+    line-height: 32px;
+    width: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
